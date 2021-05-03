@@ -25,7 +25,7 @@ def hello_http(request):
     
     ls = list(input_dict['a']+input_dict['b']) #combine the 2 array and elements convert the type into list
     ls.sort()
-    return ls
+    return ls #To print within the same function: print(*ls)
 
 """
 type the below command in the cloud shell:
